@@ -27,10 +27,6 @@ const RightSidebar = () => {
         setLocalStorage('theme',value)
     }
     const onSendInvitation= async()=>{
-        console.log({
-            from_id:me.id,
-            friend_email:friend_email
-        })
         const res= await sendInvitation({
             from_id:me.id,
             friend_email:friend_email
