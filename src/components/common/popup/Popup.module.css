@@ -1,0 +1,39 @@
+.container_popup{
+    background: rgba(6, 5, 17, 0.25);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup{
+   background: #643CF0;
+    width: 408px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.btn{
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: 200px;
+}
+.text{
+    position: relative;
+    top: -30px;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
